@@ -1,3 +1,11 @@
+<!-- Important Topic Need to give Time and Practice
+ Positioning
+ grid
+ flex
+ sudo classes 
+ classes
+ transition , animation , transfrom
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,6 +23,39 @@
             color: #fff;
         }
         
+        h1:hover {
+            background-color: orange;
+        }
+
+        button:hover {
+            background-color: aqua;
+            padding: 10px;
+        }
+
+        /* div:last-child {
+            background-color: blue;
+        } */
+
+        div:nth-child(2n) {
+            background-color: bisque;
+        }
+
+        h1::after {
+            content: "AFTER !";
+            color: red;
+        }
+
+        h1::before {
+            content: "AFTER !";
+            color: red;
+        }
+
+        p::first-letter {
+            background-color: orangered;
+            font-size: 100px;
+            padding: 10px;
+        }
+
     </style>
 </head>
 <body>
