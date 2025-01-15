@@ -199,3 +199,44 @@ header {
     width: 600px;
     height: 400px;
 }
+
+/* Discover Section */
+
+.discover-section {
+    width: 70%;
+    margin: 100px auto;
+}
+
+.discover-card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    border: 1px solid #ffffff40;
+    border-radius: 7px;
+    background: #35276D;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.discover-card img {
+    width: 500px;
+    align-self: self-start;
+    mix-blend-mode: color-dodge;
+    margin-right: 30px;
+}
+
+.discover-card-details .big-text {
+    font-size: 50px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.discover-card-details-btn {
+    width: fit-content;
+    border: 1px solid gray;
+    padding: 10px 20px;
+    margin-top: 10px;
+    transform: skewX(-20deg)
+}
+
